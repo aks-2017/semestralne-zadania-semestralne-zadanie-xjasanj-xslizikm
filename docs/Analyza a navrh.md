@@ -46,7 +46,8 @@ Pre toto meranie použijeme následovný hardware:
 - Mininet version: 2.2.
 - Floodlight version: 1.
 
-Následovné merania budeme testovať na následujúcej [topológií](https://imgur.com/Cn3DBIb) vytvorenej v mininete.
+Následovné merania budeme testovať na následujúcej topológií vytvorenej v mininete.
+![topology](https://github.com/aks-2017/semestralne-zadania-semestralne-zadanie-xjasanj-xslizikm/blob/master/docs/topo.png)
 
 
 
