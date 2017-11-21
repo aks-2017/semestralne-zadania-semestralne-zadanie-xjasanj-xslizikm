@@ -7,6 +7,7 @@ Na vytvorenie topologie v mininete sme pouzili skript topo-4sw-5host.py. Topoló
 v článku.
 
 ![topo](https://github.com/aks-2017/semestralne-zadania-semestralne-zadanie-xjasanj-xslizikm/blob/master/docs/topo.png)
+Obr. 1 Topológia siete
 
 Na vytvorenie premávky v sieti sme použili D-ITG (Distributed Internet Traffic Generator), ktorý nám umožnil vytvoriť kotrolovanú premávku v sieti,
 ktorá zodpovedala tej v článku. Ako controler siete sme použili Floodlight, ktorý sa postaral o routing v sieti.
