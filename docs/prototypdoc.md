@@ -15,5 +15,11 @@ ktorá zodpovedala tej v článku. Ako controler siete sme použili Floodlight, 
 
 ## Využitie Floodlight REST API
 
-Pomocou REST API, ktorú nám ponúka floodlight, sme sa dopytovali na switch a vyberali Rx hodnotu, ktorá nám udávala počet prijatých bitov za sekundu.
-Nakoľko priepustnosť sme mali dopredu danú, vedeli sme si z tejto informácie vypočítať ešte dostupnú kapacitu na hrane medzi switchmi.
+Našim cieľom je zmerať maximálny dostupný bandwith na ceste medzi dvoma hostami. Na tento účel využívame REST API, ktorú Floodlight poskytuje. 
+Najskôr cez $ curl -X GET <controller ip:8080>/wm/topology/links/json/ získame informáciu o , ktoré v sieti existujú potom pomocou $ curl -X GET <controller ip:8080>/wm/device/ zistíme konkretny port a switch ku ktorému je každý host pripojený.
+Následne cez $ curl -X GET <controller ip:8080>/wm/core/switch/all/flow/json/ zistíme informácie o aktuálnych tokoch v sieti. Príkaz vracia informáciu o premávke medzi hostami, konkrétne cez ktoré switche ide. 
+Následne zistíme routy týchto tokov cez $ curl -X GET <controller ip:8080>/wm/routing/path/<src-dpid>/<src-port>/<dst-dpid>/<dst-port>/json/, kde použijeme vyššie zistené porty a switche ku ktorým su hosty pripojené.
+
+## Výpočet Availiable Bandwith
+
+Výpočet availiable bandwith prebieha dopytovaním countru na switchi, taktiež cez REST API $ curl -X GET <controller ip:8080>/wm/statistics/bandwidth/<switch-dpid>/<port-number>/json/ konkrétne dopytujeme jeden switch z každej linky a na ňom hodnoty rx-bits-per-second a tx-bits-per-second, čo nam v našom prípade, keď sú linky obojsmerné zabezpečí informáciu o aktuálnom loade. A tú len odpočítame od max bandwithu definovaného v mininete a dostaneme availible bandwith
