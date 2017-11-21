@@ -3,7 +3,7 @@
 Cieľom vytvorenia nášho prototypu bolo vytvorenie siete, v ktorej sme simulovali tok dát medzi hostmi a následne sme zistovali dostupnú kapacitu. 
 
 ## Nastavenie mininetu
-Na vytvorenie topologie v mininete sme pouzili skript topo-4sw-5host.py. Topológia bola vytvorená podla obrázku (Obr. 1), ktorá bola použitá aj
+Na vytvorenie topologie v mininete sme pouzili skript topo-2sw-2host.py. Topológia bola vytvorená podla obrázku (Obr. 1), ktorá bola použitá aj
 v článku.
 
 ![topo](https://github.com/aks-2017/semestralne-zadania-semestralne-zadanie-xjasanj-xslizikm/blob/master/docs/topo.png)
