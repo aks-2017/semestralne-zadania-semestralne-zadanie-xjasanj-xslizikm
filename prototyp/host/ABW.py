@@ -50,7 +50,7 @@ MyStruct3 = namedtuple("MyStruct3",["linkBW","src_switch","dst_switch","src_port
 MyStruct4 = namedtuple("MyStruct4",["sender","reciever"])
 LinkArray = []
 # Change Routing policy in floodlight
-os.system("curl -s -X POST -d '{ \"metric\" : \"hopcount\" }' http://localhost:8080/wm/routing/metric/json > /dev/null")
+os.system("curl -s -X POST -d '{ \"metric\" : \"hopcount\" }' http://localhost:8080/wm/routing/metric/json")
 # Generate info about links in topology
 os.system("curl -s -X GET http://"+address+":8080/wm/topology/links/json | python -m json.tool > links.json")
 #enable statistics in floodlight
@@ -84,7 +84,8 @@ try:
     for item in LinkArray:
            dstBWrx = subprocess.check_output('curl -s -X GET http://'+address+':8080/wm/statistics/bandwidth/' + item.dst_switch + '/' + str(item.dst_port) + '/json | python -m json.tool | grep rx | tr -dc \'0-9\'', shell=True)
            dstBWtx = subprocess.check_output('curl -s -X GET http://'+address+':8080/wm/statistics/bandwidth/' + item.dst_switch + '/' + str(item.dst_port) + '/json | python -m json.tool | grep tx | tr -dc \'0-9\'', shell=True)
-           print ' Namerane hodnoty RX a TX bits-per-second na switchi : '+item.dst_switch +' porte: '+ str(item.dst_port) + '  rx:  ' + str(dstBWrx) + '  tx: ' + str(dstBWtx)
+           timestamp = subprocess.check_output('curl -s -X GET http://'+address+':8080/wm/statistics/bandwidth/' + item.dst_switch + '/' + str(item.dst_port) + '/json | python -m json.tool | grep updated | cut -d \'"\' -f4',shell=True)
+           print ' Namerane hodnoty RX a TX bits-per-second na switchi : '+item.dst_switch +' porte: '+ str(item.dst_port) + '  rx:  ' + str(dstBWrx) + '  tx: ' + str(dstBWtx) + '  timestamp: '+ timestamp
            dstBW = (int(dstBWrx)  + int(dstBWtx))
            FinalArray.append(MyStruct3(linkBW=item.linkBW,src_switch=item.src_switch,dst_switch=item.dst_switch,src_port=item.src_port,dst_port=item.dst_port,availableBW=(item.linkBW*1000000)-dstBW))
            print ' Available BW na linku : ' + item.src_switch + 'dst  ' + item.dst_switch + '  SRC PORT : ' + str(item.src_port) + ' DST PORT : ' + str(item.dst_port) + ' =  '   + str(item.linkBW*1000000-dstBW)
