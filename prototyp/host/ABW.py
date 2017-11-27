@@ -34,11 +34,15 @@ def Dijkstra(graph, start):
     print "\n"
     return [0 if x is None else x for x in A]
 
-if len(sys.argv) <= 1:
- print "Pre spustenie programu je potrebne zadat argument: ako casto ma program vypisovat dostupny bandwidth v sekundach"
+if len(sys.argv) <= 2:
+ print "Pre spustenie programu je potrebne zadat dva argumenty: prvy argument je ako casto sa ma dopytovat counter na switchy v sekundach"
+ print "Druhy argument urcuje v akom mode sa program spusti, argumentom \"f\" sa program spusti v mode v ktorom pocita Availible Bandwidth pre fixed paths"
+ print "Argument \"d\" spusti program v mode v ktorom pocita maximalny Availible bandwidth pre kazdy vrchol do kazdeho vrcholu"
+ print "Priklad spustenia programu je ./ABW.py 2 d"
  print "Program je mozno ukoncit cez klavesovu skratku CTRL-C"
  sys.exit()
-if int(sys.argv[1]) <= 0:
+if int(sys.argv[1]) <= 0 or (sys.argv[2] != 'd' and sys.argv[2] != 'f'):
+ print "Zadali ste nespravne argumenty, pre zobrazenie helpu spustite program bez argumentov"
  sys.exit()
 #ipadress of controller host
 address="localhost"
@@ -80,8 +84,8 @@ start = default_timer()
 try:
  while True:
 ## calculate avalilible bandwith for every link DONE
-    FinalArray = []
-    for item in LinkArray:
+   FinalArray = []
+   for item in LinkArray:
            dstBWrx = subprocess.check_output('curl -s -X GET http://'+address+':8080/wm/statistics/bandwidth/' + item.dst_switch + '/' + str(item.dst_port) + '/json | python -m json.tool | grep rx | tr -dc \'0-9\'', shell=True)
            dstBWtx = subprocess.check_output('curl -s -X GET http://'+address+':8080/wm/statistics/bandwidth/' + item.dst_switch + '/' + str(item.dst_port) + '/json | python -m json.tool | grep tx | tr -dc \'0-9\'', shell=True)
            timestamp = subprocess.check_output('curl -s -X GET http://'+address+':8080/wm/statistics/bandwidth/' + item.dst_switch + '/' + str(item.dst_port) + '/json | python -m json.tool | grep updated | cut -d \'"\' -f4',shell=True)
@@ -90,6 +94,7 @@ try:
            FinalArray.append(MyStruct3(linkBW=item.linkBW,src_switch=item.src_switch,dst_switch=item.dst_switch,src_port=item.src_port,dst_port=item.dst_port,availableBW=(item.linkBW*1000000)-dstBW))
            print ' Available BW na linku : ' + item.src_switch + 'dst  ' + item.dst_switch + '  SRC PORT : ' + str(item.src_port) + ' DST PORT : ' + str(item.dst_port) + ' =  '   + str(item.linkBW*1000000-dstBW)
            print "\n"
+   if (sys.argv[2]) == 'd':
 #DIJKST
     vertices = []
     for i in FinalArray:
@@ -106,6 +111,7 @@ try:
     #print AdjacentVertices
     for i in AdjacentVertices:
      Dijkstra(AdjacentVertices,i)
+   elif sys.argv[2] == 'f':
 #check attachement points of all hosts DONE
     os.system("curl -s -X GET http://"+address+":8080/wm/device/ | python -m json.tool > devices.json")
     DeviceArray = []
@@ -166,18 +172,11 @@ try:
            minBW = j.availableBW
          print "switche pre ktore vypisujeme bandwidth: SRC: " + i.src_switch + " DST: " + i.dst_switch
         print "dostupny bandwidth pre cestu : "  + str(minBW)
-## TODO nejaky rozumny output do fileu
-      # for i in FinalArray:
-       #    duration = default_timer() - start
-        #   f = open( 'file.log', 'a' )
-         #  f.write( 'Link capacity: ' + str(i.linkBW) + ' src_switch: ' + i.src_switch + ' dst_switch: ' + i.dst_switch + ' Availiable bandwith: ' + str(i.availiableBW) + 'Bps time:' + str(duration) + ' \n' )
-          # f.close()
-         #  print i.src_switch + '  ' + i.dst_switch + '  availibleBW: =  ' + str(i.availiableBW)
-    time.sleep(float(sys.argv[1]))
+   time.sleep(float(sys.argv[1]))
 except KeyboardInterrupt:
 # remove temp files needed for bandwidth calculation
-  #os.system("rm links.json")
-  #os.system("rm flows.json")
+  os.system("rm links.json")
+  os.system("rm flows.json")
   #os.system("rm route.json")
-  #os.system("rm devices.json")
+  os.system("rm devices.json")
   print("program bol ukonceny")
