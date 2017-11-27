@@ -1,0 +1,1762 @@
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22377750  tx: 150  timestamp: Sat Nov 25 01:01:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2377900
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  150  tx: 150  timestamp: Sat Nov 25 01:01:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999700
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12090102  tx: 150  timestamp: Sat Nov 25 01:01:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2090252
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  150  tx: 150  timestamp: Sat Nov 25 01:01:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999700
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  150  tx: 150  timestamp: Sat Nov 25 01:01:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2377900
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : -2377900
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+dostupny bandwidth pre cestu : -2377900
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2377900
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22486464  tx: 0  timestamp: Sat Nov 25 01:01:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2486464
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:01:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12198816  tx: 0  timestamp: Sat Nov 25 01:01:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2198816
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:01:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:01:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2486464
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2486464
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17861073  tx: 120  timestamp: Sat Nov 25 01:01:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2138807
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:01:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9638212  tx: 120  timestamp: Sat Nov 25 01:01:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  361668
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:01:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:01:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 361668
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2138807
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22344336  tx: 0  timestamp: Sat Nov 25 01:01:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2344336
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:01:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12068784  tx: 0  timestamp: Sat Nov 25 01:01:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2068784
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:01:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:01:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2344336
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2344336
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17868211  tx: 0  timestamp: Sat Nov 25 01:02:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2131789
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9642931  tx: 0  timestamp: Sat Nov 25 01:02:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  357069
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 357069
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2131789
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17870764  tx: 134  timestamp: Sat Nov 25 01:02:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2129102
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9689030  tx: 134  timestamp: Sat Nov 25 01:02:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  310836
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 310836
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 310836
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2129102
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22126692  tx: 84  timestamp: Sat Nov 25 01:02:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2126776
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  11802672  tx: 0  timestamp: Sat Nov 25 01:02:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -1802672
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2126776
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+dostupny bandwidth pre cestu : -2126776
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2126776
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17911876  tx: 120  timestamp: Sat Nov 25 01:02:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2088004
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:02:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9681758  tx: 120  timestamp: Sat Nov 25 01:02:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  318122
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:02:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:02:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 318122
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2088004
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17650483  tx: 0  timestamp: Sat Nov 25 01:02:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2349517
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9456652  tx: 0  timestamp: Sat Nov 25 01:02:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  543348
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 543348
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2349517
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17757048  tx: 120  timestamp: Sat Nov 25 01:02:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2242832
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:02:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9524510  tx: 120  timestamp: Sat Nov 25 01:02:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  475370
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:02:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:02:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 475370
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2242832
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17831990  tx: 134  timestamp: Sat Nov 25 01:02:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2167876
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 134  timestamp: Sat Nov 25 01:02:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999866
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9621225  tx: 67  timestamp: Sat Nov 25 01:02:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  378708
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  67  tx: 67  timestamp: Sat Nov 25 01:02:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999866
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  67  tx: 67  timestamp: Sat Nov 25 01:02:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999866
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999866
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999866
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999866
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999866
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999866
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999866
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999866
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999866
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999866
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999866
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999866
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999866
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 378708
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 378708
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2167876
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22383648  tx: 0  timestamp: Sat Nov 25 01:02:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2383648
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12086928  tx: 0  timestamp: Sat Nov 25 01:02:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2086928
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2383648
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+dostupny bandwidth pre cestu : -2383648
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2383648
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22492512  tx: 0  timestamp: Sat Nov 25 01:02:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2492512
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12210912  tx: 0  timestamp: Sat Nov 25 01:02:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2210912
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:02:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2492512
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2492512
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18018201  tx: 0  timestamp: Sat Nov 25 01:03:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1981799
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9785664  tx: 0  timestamp: Sat Nov 25 01:03:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  214336
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:03 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 214336
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1981799
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18044932  tx: 120  timestamp: Sat Nov 25 01:03:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1954948
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:03:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9822072  tx: 120  timestamp: Sat Nov 25 01:03:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  177808
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:03:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:03:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 177808
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1954948
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18073843  tx: 0  timestamp: Sat Nov 25 01:03:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1926157
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9841305  tx: 0  timestamp: Sat Nov 25 01:03:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  158695
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 158695
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 158695
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1926157
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22504758  tx: 150  timestamp: Sat Nov 25 01:03:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2504908
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  150  tx: 150  timestamp: Sat Nov 25 01:03:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999700
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12220134  tx: 150  timestamp: Sat Nov 25 01:03:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2220284
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  150  tx: 150  timestamp: Sat Nov 25 01:03:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999700
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  150  tx: 150  timestamp: Sat Nov 25 01:03:23 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999700
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999700
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999700
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2504908
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2504908
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18061814  tx: 67  timestamp: Sat Nov 25 01:03:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1938119
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 67  timestamp: Sat Nov 25 01:03:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999933
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9831628  tx: 0  timestamp: Sat Nov 25 01:03:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  168372
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 67  timestamp: Sat Nov 25 01:03:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999933
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  67  tx: 0  timestamp: Sat Nov 25 01:03:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 168372
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+dostupny bandwidth pre cestu : 1938119
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1938119
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18054489  tx: 0  timestamp: Sat Nov 25 01:03:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1945511
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9814694  tx: 0  timestamp: Sat Nov 25 01:03:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  185306
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 185306
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1945511
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18044812  tx: 0  timestamp: Sat Nov 25 01:03:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1955188
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9814694  tx: 0  timestamp: Sat Nov 25 01:03:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  185306
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 185306
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 185306
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1955188
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18059462  tx: 134  timestamp: Sat Nov 25 01:03:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1940404
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9824505  tx: 134  timestamp: Sat Nov 25 01:03:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  175361
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:48 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 175361
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 175361
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1940404
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18025579  tx: 120  timestamp: Sat Nov 25 01:03:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1974301
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:03:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9805017  tx: 120  timestamp: Sat Nov 25 01:03:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  194863
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:03:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:03:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 194863
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1974301
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22577184  tx: 0  timestamp: Sat Nov 25 01:03:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2577184
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  12280464  tx: 0  timestamp: Sat Nov 25 01:03:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -2280464
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:03:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2577184
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+dostupny bandwidth pre cestu : -2577184
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2577184
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18037675  tx: 120  timestamp: Sat Nov 25 01:04:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1962205
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9807556  tx: 120  timestamp: Sat Nov 25 01:04:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  192324
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:08 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 192324
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1962205
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18018201  tx: 0  timestamp: Sat Nov 25 01:04:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1981799
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9792921  tx: 0  timestamp: Sat Nov 25 01:04:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  207079
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:13 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 207079
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 207079
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1981799
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  17996563  tx: 134  timestamp: Sat Nov 25 01:04:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  2003303
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 67  timestamp: Sat Nov 25 01:04:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999933
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9768864  tx: 67  timestamp: Sat Nov 25 01:04:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  231069
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 67  timestamp: Sat Nov 25 01:04:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999933
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  67  tx: 0  timestamp: Sat Nov 25 01:04:18 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999933
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999933
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999933
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 231069
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 2003303
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18013363  tx: 0  timestamp: Sat Nov 25 01:04:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1986637
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9785664  tx: 0  timestamp: Sat Nov 25 01:04:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  214336
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:28 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 214336
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1986637
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18064166  tx: 0  timestamp: Sat Nov 25 01:04:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1935834
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9836467  tx: 0  timestamp: Sat Nov 25 01:04:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  163533
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:33 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 163533
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1935834
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18057096  tx: 187  timestamp: Sat Nov 25 01:04:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1942717
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9819532  tx: 120  timestamp: Sat Nov 25 01:04:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  180348
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:38 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:04
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:04 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 4999760
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1942717
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18008524  tx: 0  timestamp: Sat Nov 25 01:04:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1991476
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 12096  timestamp: Sat Nov 25 01:04:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9987904
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  9800179  tx: 0  timestamp: Sat Nov 25 01:04:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  199821
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 12096  timestamp: Sat Nov 25 01:04:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4987904
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  12096  tx: 0  timestamp: Sat Nov 25 01:04:43 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9987904
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4987904
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4987904
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4987904
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4987904
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9987904
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9987904
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4987904
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9987904
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9987904
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4987904
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9987904
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9987904
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:04
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:04 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 4987904
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:03 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:01
+dostupny bandwidth pre cestu : 199821
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1991476
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  18432004  tx: 120  timestamp: Sat Nov 25 01:04:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  1567876
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  9999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  10056854  tx: 120  timestamp: Sat Nov 25 01:04:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -56974
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  4999760
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  120  tx: 120  timestamp: Sat Nov 25 01:04:53 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  4999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  9999760
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  4999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  9999760
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -56974
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : 1567876
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:03 porte: 3  rx:  22002624  tx: 0  timestamp: Sat Nov 25 01:04:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:03  SRC PORT : 3 DST PORT : 3 =  -2002624
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 2  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:03dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 2 =  10000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:02 porte: 2  rx:  11917584  tx: 0  timestamp: Sat Nov 25 01:04:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:02  SRC PORT : 3 DST PORT : 2 =  -1917584
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 1  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:01dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 1 =  5000000
+
+
+ Namerane hodnoty RX a TX bits-per-second na switchi : 00:00:00:00:00:00:00:04 porte: 3  rx:  0  tx: 0  timestamp: Sat Nov 25 01:04:58 CET 2017
+
+ Available BW na linku : 00:00:00:00:00:00:00:02dst  00:00:00:00:00:00:00:04  SRC PORT : 4 DST PORT : 3 =  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:01 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:03 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:02 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:01 DO 00:00:00:00:00:00:00:04 MAX ABW :  5000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:03 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:03 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:02 MAX ABW :  0
+DIJKSTRA Z  00:00:00:00:00:00:00:02 DO 00:00:00:00:00:00:00:04 MAX ABW :  10000000
+
+
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:01 MAX ABW :  5000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:03 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:02 MAX ABW :  10000000
+DIJKSTRA Z  00:00:00:00:00:00:00:04 DO 00:00:00:00:00:00:00:04 MAX ABW :  0
+
+
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:01 DST: 00:00:00:00:00:00:00:02
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2002624
+switche pre ktore vypisujeme bandwidth: SRC: 00:00:00:00:00:00:00:02 DST: 00:00:00:00:00:00:00:03
+dostupny bandwidth pre cestu : -2002624
