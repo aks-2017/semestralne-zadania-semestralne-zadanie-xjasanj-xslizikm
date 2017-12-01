@@ -9,6 +9,8 @@ Vypracovali: Jakub Jasaň, Miloslav Slížik
 /prototyp/mininetVM - obsahuje súbory, ktoré je potrebné mať vo VM, kde beží mininet\
 D-ITG - program na generovanie network traffic, nakoniec sme miesto neho použili iperf, ktorý je integrovaný v mininete,\
         pretože D-ITG nevedelo poslať presne taký traffic ako sme chceli.
+/Results - obsahuje subory s výslednými hodnotami pri meraní a aj grafy a tabuľku výsledkov
+/Article - obsahuje výsledný článok našeho zadania
 
 Dependencies projektu:\
 Program bol pisaný na Linuxe a jeho jediná externá závislosť okrem Mininetu a SDN controlleru je python.\
