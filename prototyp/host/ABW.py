@@ -59,7 +59,7 @@ os.system("curl -s -X POST -d '{ \"metric\" : \"hopcount\" }' http://localhost:8
 os.system("curl -s -X GET http://"+address+":8080/wm/topology/links/json | python -m json.tool > links.json")
 #enable statistics in floodlight
 os.system("curl -s -X POST http://"+address+":8080/wm/statistics/config/enable/json > /dev/null")
-time.sleep(10)
+time.sleep(float(sys.argv[1]))
 # sem je potrebne vpisat vsetky kapacity linkov urcene v mininete
 link1 = MyStruct(linkBW=10,src_switch="00:00:00:00:00:00:00:01",dst_switch="00:00:00:00:00:00:00:02")
 link2 = MyStruct(linkBW=20,src_switch="00:00:00:00:00:00:00:02",dst_switch="00:00:00:00:00:00:00:03")
@@ -172,7 +172,7 @@ try:
            minBW = j.availableBW
          print "switche pre ktore vypisujeme bandwidth: SRC: " + i.src_switch + " DST: " + i.dst_switch
         print "dostupny bandwidth pre cestu : "  + str(minBW)
-   time.sleep(float(sys.argv[1]))
+   time.sleep(float(sys.argv[1])-1)
 except KeyboardInterrupt:
 # remove temp files needed for bandwidth calculation
   os.system("rm links.json")
