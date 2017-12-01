@@ -12,6 +12,7 @@ D-ITG - program na generovanie network traffic, nakoniec sme miesto neho použil
 /Results - obsahuje subory s výslednými hodnotami pri meraní a aj grafy a tabuľku výsledkov
 /Article - obsahuje výsledný článok našeho zadania
 
+
 Dependencies projektu:\
 Program bol pisaný na Linuxe a jeho jediná externá závislosť okrem Mininetu a SDN controlleru je python.\
 Na linuxových distribúciach s aptitutde package managerom sa inštaluje commandom : $ sudo apt install python-minimal\
